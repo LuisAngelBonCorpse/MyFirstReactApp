@@ -26,7 +26,7 @@ export class IngredientesPrincipales extends Component{
         //comentario de una unica linea, no borrar las llaves
         }
         <ul>
-          {this.ingredientesPrincipales.map(ingrediente => ( <li>{ingrediente}</li>)) }
+          {this.ingredientesPrincipales.map((ingrediente, index) => ( <li key={index}>{ingrediente}</li>)) }
         </ul>
 
       </Fragment>

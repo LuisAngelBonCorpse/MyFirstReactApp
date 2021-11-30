@@ -1,5 +1,5 @@
 import  Header  from "./componentes/header";
-import  Dish,  * as D from "./componentes/dish"; // se renombran componentes similares, podrian ser variaciones del mismo
+import  Dish/* ,  * as D */ from "./componentes/dish"; // se renombran componentes similares, podrian ser variaciones del mismo
 
 
 import React, { Component } from "react";
@@ -21,7 +21,6 @@ class App extends Component {
         </ul>
         */}
         <Dish dish={this.dishes[0]} costo={this.costos[0]} ></Dish>
-        <D.Flag></D.Flag>
       </div>
     );
   }
