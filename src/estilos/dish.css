@@ -1,0 +1,12 @@
+h4 {
+  color: #F00;
+}
+
+div.dish{
+  width: 10rem;
+  height: 20rem;
+  border-radius: 5px;
+  background: cadetblue;
+  margin: 0 auto;
+  padding: 0.2rem;
+}
